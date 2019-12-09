@@ -9,12 +9,14 @@
 
 ## Setup
 
-The tools require `Python 3.7+` and `invoke`.
+The tools require at the minimum `Python 3.7+` and `invoke`.
 
 ```bash
 brew install python3
 pip3 install invoke
 ```
+
+You can also run the `bootstrap/bootstrap-osx.sh` script to install all the dependencies at once.
 
 Then simply run `inv` to setup the environment.
 

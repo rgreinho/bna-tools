@@ -90,7 +90,7 @@ async def main():
         )
 
     # Run osmfilter to limit the file content to the attributes we need.
-    OSM_FILTERS = ["addr:street="]
+    OSM_FILTERS = ["addr:street=", "addr:postcode="]
     austin_filtered = output_dir / CITY_NAME_STATE_FILTERED
     if not austin_filtered.exists():
         osmfilter_cmd = (
@@ -116,16 +116,22 @@ async def main():
 
         # Clean up the result.
         pd_streets = pd.read_csv(austin_csv.resolve())
-        df = pd.DataFrame(columns=["Street Name", "Mapper", "Reviewer"])
+        df = pd.DataFrame(columns=["Street Name", "Zipcode"])
         df["Street Name"] = pd_streets["addr:street"]
+        df["Zipcode"] = pd_streets["addr:postcode"]
+        df.dropna(inplace=True)
         df.drop_duplicates(inplace=True)
 
-        # Re-index and sort the df.
-        df.set_index("Street Name", inplace=True)
-        df.sort_values("Street Name", inplace=True)
+        # sort the df.
+        df.sort_values("Zipcode", inplace=True)
 
         # Save.
         df.to_csv(austin_csv)
+
+        # Extras.
+        valid = df["Zipcode"].str.isdigit()
+        grouped = df[valid].groupby(["Zipcode"]).count()
+        grouped.to_csv(output_dir / "austin-street-grouped.csv")
 
 
 if __name__ == "__main__":
