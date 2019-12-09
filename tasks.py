@@ -4,7 +4,8 @@ from invoke import task
 from nox.virtualenv import VirtualEnv
 
 # Configuration values.
-VENV = 'venv'
+VENV = "venv"
+
 
 @task(default=True)
 def setup(c):
@@ -14,6 +15,14 @@ def setup(c):
     pip = venv_bin / "pip"
     c.run(f"{pip.resolve()} install -U pip setuptools")
     c.run(f"{pip.resolve()} install -r requirements.txt -r requirements-dev.txt")
+
+
+@task
+def resize_images(c):
+    """Resize images for the BNA document."""
+    with c.cd("images-orig"):
+        c.run("mogrify -resize 240x -path ../images *.png")
+
 
 def get_venv(venv):
     """
@@ -26,5 +35,5 @@ def get_venv(venv):
     location = Path(venv)
     venv = VirtualEnv(location.resolve())
     venv_bin = Path(venv.bin)
-    activate = venv_bin / 'activate'
+    activate = venv_bin / "activate"
     return venv, venv_bin, activate

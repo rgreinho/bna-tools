@@ -7,6 +7,17 @@
 * Simplify researching for examples and official pages
 * Provide a way to monitor progress
 
+## Setup
+
+The tools require `Python 3.7+` and `invoke`.
+
+```bash
+brew install python3
+pip3 install invoke
+```
+
+Then simply run `inv` to setup the environment.
+
 ## Images
 
 Resize the images:
