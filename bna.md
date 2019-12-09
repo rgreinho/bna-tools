@@ -16,10 +16,10 @@ For this exercise, here are the main tags we are focusing on:
 
 ### Side of the road
 
-Left and right are relative to the direction the line is drawn in OSM, not necessarily the direction of travel on the
-bike lane. For contraflow lanes see section on contraflow.
+`left` and `right` are relative to the direction the line is drawn in OSM, which is indicated in OSM by an arrow on the
+line, not necessarily the direction of travel on the bike lane.
 
-In the examples bellow, `{side}` can be `left`, `right` or `both`.
+In the examples bellow, `{side}` can be either `left`, `right` or `both`.
 
 ### Lanes
 
@@ -30,7 +30,7 @@ In the examples bellow, `{side}` can be `left`, `right` or `both`.
 
 |Photo|Description|Tags|Note|
 |---|---|---|---|
-|![Trail or sidepath](images/trail-or-sidepath.png)|Trail or sidepath| highway=cycleway<br/>surface=paved|Must be drawn as its own centerline.|
+|![Trail or sidepath](images/trail-or-sidepath.png)|Trail or sidepath| highway=cycleway<br/>surface=asphalt|Must be drawn as its own centerline.|
 |![Bike lane without parking](images/bike-lane-no-parking.png)|Bike lane without parking|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=no_parking<br/>||
 |![Bike lane with parking](images/bike-lane-with-parking.png)|Bike lane with parking|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=parallel<br/>parking:lane:{side}:width||
 |![Contraflow bike lane](images/contraflow-bike-lane.png)|Contraflow bike lane|oneway=yes<br/>cycleway:{side}=opposite_lane<br/>cycleway:{side}:width|
@@ -67,4 +67,6 @@ Cycle tracks can alternatively be mapped as a separate centerline, in which case
 
 ## Resources
 
+* [City of Austin - OSM Mapathon Instructions](https://github.com/cityofaustin/atd-geospatial/wiki/OSM-Mapathon-Instructions)
+* [Bicycle Network Analysis OpenStreetMap Tag Guidelines](https://docs.google.com/document/d/1isc9M9_c-QL4Oy8_MxAyogZ6ocs1F6PeEn_Y1p0WZp8/edit#heading=h.zfgapbgr6a6l)
 * [Mapping with OpenStreetMap](https://labs.mapbox.com/mapping/) (MapBox Mapping guides)
