@@ -15,7 +15,7 @@ The first idea was to use the streets of the city as a completion indicator:
 
 To test wether or not this approach is valid, I propose to run a first test with the 20 most bikeable streets in the city:
 
-|Street Name|Tagger|Reviewer|
+|Street Name|Mapper|Reviewer|
 |---|---|---|
 |3rd Street|||
 |Arroyo Seco|||
