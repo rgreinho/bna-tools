@@ -15,25 +15,25 @@ The first idea was to use the streets of the city as a completion indicator:
 
 To test wether or not this approach is valid, I propose to run a first test with the 20 most bikeable streets in the city:
 
-|Street Name|Mapper|Reviewer|
-|---|---|---|
-|3rd Street|||
-|Arroyo Seco|||
-|Berkman Drive|||
-|Cherrywood Road|||
-|Chesnut Avenue|||
-|Chicon Street|||
-|Clyde Littlefield Drive|||
-|Comal Street|||
-|Denson Drive|||
-|E. M Franklin Avenue| Rémy G.||
-|Guadalupe Street|||
-|Maor Road|||
-|Pedernales Street|||
-|Red River Street| Rémy G.||
-|Rio Grande Street|||
-|San Jacinto boulevard|||
-|Speedway|||
-|Tiley Street|||
-|Trinity Street|||
-|Zach Schott Street|||
+| Street Name             | Mapper  | Reviewer |
+|-------------------------|---------|----------|
+| 3rd Street              |         |          |
+| Arroyo Seco             |         |          |
+| Berkman Drive           | Rémy G. |          |
+| Cherrywood Road         |         |          |
+| Chesnut Avenue          |         |          |
+| Chicon Street           |         |          |
+| Clyde Littlefield Drive |         |          |
+| Comal Street            |         |          |
+| Denson Drive            |         |          |
+| E. M Franklin Avenue    | Rémy G. |          |
+| Guadalupe Street        |         |          |
+| Maor Road               |         |          |
+| Pedernales Street       |         |          |
+| Red River Street        | Rémy G. |          |
+| Rio Grande Street       |         |          |
+| San Jacinto boulevard   |         |          |
+| Speedway                |         |          |
+| Tiley Street            |         |          |
+| Trinity Street          |         |          |
+| Zach Schott Street      |         |          |
