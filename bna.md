@@ -19,14 +19,14 @@ For this exercise, here are the main tags we are focusing on:
 `left` and `right` are relative to the direction the line is drawn in OSM, which is indicated in OSM by an arrow on the
 line, not necessarily the direction of travel on the bike lane.
 
-In the examples bellow, `{side}` can be either `left`, `right` or `both`.
+In the examples bellow, `{side}` can be either `left`, `right`. When it is both, the direction is  omitted.
 
 ### Lanes
 
 * Represent the count of car lanes.
 * Center turn lanes must be included in the number of lanes.
 
-## Bike lane Examples
+## Bike facilities Examples
 
 |Photo|Description|Tags|Note|
 |---|---|---|---|
@@ -35,7 +35,7 @@ In the examples bellow, `{side}` can be either `left`, `right` or `both`.
 |![Bike lane with parking](images/bike-lane-with-parking.png)|Bike lane with parking|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=parallel<br/>parking:lane:{side}:width||
 |![Contraflow bike lane](images/contraflow-bike-lane.png)|Contraflow bike lane|oneway=yes<br/>cycleway:{side}=opposite_lane<br/>cycleway:{side}:width|
 |![Bike + parking lane](images/bike+parking-lane.png)|Bike + parking lane|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=parallel<br/>parking:lane:{side}:width|
-|![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=lane<br/>cycleway:{side}:buffer=yes<br/>cycleway:{side}:width||
+|![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=buffered_lane<br/>cycleway:{side}:width||
 |![One-way cycle track protected lane](images/one-way-cycle-track.png)|One-way cycle track<br/>Protected lane|cycleway:{side}=track|See also [cycle tracks alternative](#cycle-tracks-alternative)|
 |![Contraflow Cycle track](images/contraflow-cycle-track.png)|Contraflow Cycle track|cycleway:{side}=opposite_track|
 |![Two-way cycle track](images/two-way-cycle-track.png)|Two-way cycle track|highway=cycleway|Must be drawn as its own centerline.|
