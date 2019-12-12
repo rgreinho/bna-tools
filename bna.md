@@ -30,12 +30,12 @@ In the examples bellow, `{side}` can be either `left`, `right`. When it is both,
 
 |Photo|Description|Tags|Note|
 |---|---|---|---|
-|![Trail or sidepath](images/trail-or-sidepath.png)|Trail or sidepath| highway=cycleway<br/>surface=asphalt|Must be drawn as its own centerline.|
-|![Bike lane without parking](images/bike-lane-no-parking.png)|Bike lane without parking|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=no_parking<br/>||
-|![Bike lane with parking](images/bike-lane-with-parking.png)|Bike lane with parking|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=parallel<br/>parking:lane:{side}:width||
-|![Contraflow bike lane](images/contraflow-bike-lane.png)|Contraflow bike lane|oneway=yes<br/>cycleway:{side}=opposite_lane<br/>cycleway:{side}:width|
-|![Bike + parking lane](images/bike+parking-lane.png)|Bike + parking lane|cycleway:{side}=lane<br/>cycleway:{side}:width<br/>parking:lane:{side}=parallel<br/>parking:lane:{side}:width|
-|![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=buffered_lane<br/>cycleway:{side}:width||
+|![Trail or sidepath](images/trail-or-sidepath.png)|Trail or sidepath|highway=cycleway<br/>surface=asphalt|Must be drawn as its own centerline.|
+|![Bike lane without parking](images/bike-lane-no-parking.png)|Bike lane without parking|cycleway:{side}=lane<br/>parking:lane:{side}=no_parking<br/>||
+|![Bike lane with parking](images/bike-lane-with-parking.png)|Bike lane with parking|cycleway:{side}=lane<br/>parking:lane:{side}=parallel<br/>||
+|![Contraflow bike lane](images/contraflow-bike-lane.png)|Contraflow bike lane|oneway=yes<br/>cycleway:{side}=opposite_lane<br/>|
+|![Bike + parking lane](images/bike+parking-lane.png)|Bike + parking lane|cycleway:{side}=lane<br/>parking:lane:{side}=parallel<br/>|
+|![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=buffered_lane<br/>||
 |![One-way cycle track protected lane](images/one-way-cycle-track.png)|One-way cycle track<br/>Protected lane|cycleway:{side}=track|See also [cycle tracks alternative](#cycle-tracks-alternative)|
 |![Contraflow Cycle track](images/contraflow-cycle-track.png)|Contraflow Cycle track|cycleway:{side}=opposite_track|
 |![Two-way cycle track](images/two-way-cycle-track.png)|Two-way cycle track|highway=cycleway|Must be drawn as its own centerline.|
@@ -52,7 +52,13 @@ between. E.g. cycleway:right:width=3’10”
 
 Cycleway width should either be measured from any parking-related pavement markings (such as a T) to the edge line, or
 as the leftover space after deducting eight feet for the parking. If both cycleway and parking widths are provided these
- should add up to the total width of the combined space.
+should add up to the total width of the combined space.
+
+Tag it with:
+
+```kvp
+cycleway:{side}=width
+```
 
 #### Cycleway with buffer width
 
@@ -62,8 +68,10 @@ Cycleway width in this case should include the width of the lane and buffer comb
 
 Cycle tracks can alternatively be mapped as a separate centerline, in which case they should be tagged as:
 
-* highway=cycleway
-* oneway=yes
+```kvp
+highway=cycleway
+oneway=yes
+```
 
 ## Resources
 
