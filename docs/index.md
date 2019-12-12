@@ -2,7 +2,7 @@
 
 ## Main tags
 
-For this exercise, we are focusing only on this series of tags:
+For this exercise, we are focusing only on these tags:
 
 |||||
 |---|---|---|---|
@@ -10,18 +10,18 @@ For this exercise, we are focusing only on this series of tags:
 
 ## Bike facilities examples
 
-|Photo|Description|Tags|Remarks|
-|---|---|---|---|
-|![Trail or sidepath](images/trail-or-sidepath.png)|Trail or sidepath|highway=cycleway<br/>surface=asphalt|Must be drawn as its own centerline.|
+|Photo|Denominations|Tags|Remarks|
+|---|:---:|---|---|
+|![Trail or sidepath](images/trail-or-sidepath.png)|Trail<br />Sidepath|highway=cycleway<br/>surface=asphalt|Must be drawn as its own centerline.|
 |![Bike lane without parking](images/bike-lane-no-parking.png)|Bike lane without parking|cycleway:{side}=lane<br/>parking:lane:{side}=no_parking<br/>||
 |![Bike lane with parking](images/bike-lane-with-parking.png)|Bike lane with parking|cycleway:{side}=lane<br/>parking:lane:{side}=parallel<br/>||
 |![Contraflow bike lane](images/contraflow-bike-lane.png)|Contraflow bike lane|oneway=yes<br/>cycleway:{side}=opposite_lane<br/>|
 |![Bike + parking lane](images/bike+parking-lane.png)|Bike + parking lane|cycleway:{side}=lane<br/>parking:lane:{side}=parallel<br/>|
 |![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=buffered_lane<br/>||
-|![One-way cycle track protected lane](images/one-way-cycle-track.png)|One-way cycle track<br/>Protected lane|cycleway:{side}=track|See also [cycle tracks alternative](#cycle-tracks-alternative)|
+|![One-way cycle track protected lane](images/one-way-cycle-track.png)|One-way cycle track<br />One-way protected lane|cycleway:{side}=track|See also [cycle tracks alternative](#cycle-tracks-alternative)|
 |![Contraflow Cycle track](images/contraflow-cycle-track.png)|Contraflow Cycle track|cycleway:{side}=opposite_track|
-|![Two-way cycle track](images/two-way-cycle-track.png)|Two-way cycle track|highway=cycleway|Must be drawn as its own centerline.|
-|![Sharows](images/sharrows.png)|Sharrows/Shared Lane|cycleway:{side}=shared_lane||
+|![Two-way cycle track](images/two-way-cycle-track.png)|Two-way cycle track<br />Two-way protected lane|highway=cycleway|Must be drawn as its own centerline.|
+|![Sharows](images/sharrows.png)|Sharrows<br />Shared Lane|cycleway:{side}=shared_lane||
 
 ### Remarks
 

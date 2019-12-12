@@ -1,6 +1,7 @@
 site_name: BNA hackthon
 nav:
   - index.md
+  - mapping-setup.md
   - progress.md
 
 extra_css:
