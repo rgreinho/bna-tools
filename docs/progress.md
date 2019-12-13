@@ -8,8 +8,9 @@ The first idea was to use the streets of the city as a completion indicator:
 
 1. Collect all the streets of the city
 2. Group them by zipcode
-3. Assign zipcode to groups
-4. Each street will be tagged by a mapper AND reviewed by ANOTHER mapper
+3. Assign streets or zipcode to groups
+4. Each street will be tagged by a mapper AND reviewed by **another** mapper
+5. Mark the status as "Done" ( ✅).
 
 ### Method validation
 
