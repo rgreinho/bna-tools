@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../img/favicon.ico">
-        <title>Advancement - BNA hackthon</title>
+        <title>Method - BNA hackthon</title>
         <link href="../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
@@ -50,11 +50,11 @@
                             <li >
                                 <a href="..">Guide</a>
                             </li>
-                            <li >
-                                <a href="../mapping-setup/">Method</a>
-                            </li>
                             <li class="active">
-                                <a href="./">Advancement</a>
+                                <a href="./">Method</a>
+                            </li>
+                            <li >
+                                <a href="../progress/">Advancement</a>
                             </li>
                         </ul>
 
@@ -65,12 +65,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../mapping-setup/">
+                                <a rel="next" href="..">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
-                            <li class="disabled">
-                                <a rel="prev" >
+                            <li >
+                                <a rel="prev" href="../progress/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -82,156 +82,89 @@
         <div class="container">
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#advancement">Advancement</a></li>
-            <li><a href="#street-by-street">Street by street</a></li>
+        <li class="main active"><a href="#method">Method</a></li>
+            <li><a href="#screen-setup">Screen setup</a></li>
+            <li><a href="#mapping">Mapping</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h1 id="advancement">Advancement</h1>
-<h2 id="street-by-street">Street by street</h2>
-<p>It is not straightforward to monitor the progress of the tagging, especially at the scale of the city.</p>
-<p>The first idea was to use the streets of the city as a completion indicator:</p>
-<ol>
-<li>Collect all the streets of the city</li>
-<li>Group them by zipcode</li>
-<li>Assign zipcode to groups</li>
-<li>Each street will be tagged by a mapper AND reviewed by ANOTHER mapper</li>
-</ol>
-<h3 id="method-validation">Method validation</h3>
-<p>To test wether or not this approach is valid, I propose to run a first test with the 20 most bikeable streets in the city:</p>
+<h1 id="method">Method</h1>
+<h2 id="screen-setup">Screen setup</h2>
+<p>To map efficiently, you will need 3 windows:</p>
+<ul>
+<li>Google Street view</li>
+<li>OSM ID editor</li>
+<li>This site</li>
+</ul>
+<h3 id="two-screens">Two screens</h3>
+<p>This is by far the most common setup. Use 2 screens, either physical or virtual.</p>
 <table>
 <thead>
 <tr>
-<th>Street Name</th>
-<th align="center">Mapper</th>
-<th align="center">Reviewer</th>
-<th align="center">Status</th>
+<th align="center">Left screen</th>
+<th align="center">Right screen</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>3rd Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Arroyo Seco</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Berkman Drive</td>
-<td align="center">Rémy G.</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Cherrywood Road</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Chesnut Avenue</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Chicon Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Clyde Littlefield Drive</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Comal Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Denson Drive</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>E. M Franklin Avenue</td>
-<td align="center">Rémy G.</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Guadalupe Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Maor Road</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Pedernales Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Red River Street</td>
-<td align="center">Rémy G.</td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Rio Grande Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>San Jacinto boulevard</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Speedway</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Tiley Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Trinity Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>Zach Schott Street</td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
+<td align="center"><img alt="left screen" src="../images/setup/two-screens-left.png" /></td>
+<td align="center"><img alt="right screen" src="../images/setup/two-screens-right.png" /></td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<p>On the left screen, open 2 browser windows. Give 50% of the screen to each of them.</p>
+<p>On the leftmost window, open GoogleMaps with Street view. Give the top 75% of the tab to the actual street view, the rest at the bottom, to the map view.</p>
+<p>On the rightmost, open OSM with the ID editor.</p>
+<p>On the second screen, open this website. Use as must space as you feel comfortable with. The goal is to find the tagging information quickly.</p>
+<h3 id="one-wide-screen">One wide screen</h3>
+<p>An alternative setup that is used on wide screens (UHD, 4K, etc.) is to open the 3 windows on the same screen, and give each of them 1/3 of the screen.</p>
+<p>The screenshot bellow depicts this setup on a 4K monitor at a definition of 3840 x 2160 pixels.</p>
+<p><img alt="one-screen-3-windows" src="../images/setup/one-screen-3-windows.png" /></p>
+<h2 id="mapping">Mapping</h2>
+<p>This method consist in using Google Street view to identify the street features described by the main tags in our guide, then report them to OSM using the ID editor.</p>
+<p>The tasks can be performed at the same time or sequentially, as you prefer.</p>
+<h3 id="example-e-m-franklin-ave-between-e-12th-st-and-manor-road">Example: E. M. Franklin Ave. between E. 12th St and Manor Road</h3>
+<p>Place the street view orange man at E. 12th St &amp; E. M. Franklin Ave. Look North.</p>
+<p>Start identifying the street features represented by the tags at the top of our guide. We can see the following ones:</p>
+<ul>
+<li>There are 2 car lanes.</li>
+<li>There is a sign indicating a speed limit of 30mph.</li>
+<li>Cars are parked parralel to the road on both sides.</li>
+<li>The surface of the road is asphalt</li>
+<li><strong>There is no bike lane.</strong></li>
+</ul>
+<p>Start moving North (use the mouse or the UP arrow ( 🔼) on the keyboard), and keep following the road until you notice at least one change in the street features you previously recognized.</p>
+<p>In our case, nothing changes until we reach E. Martin Luther King Jr Blvd.</p>
+<p>Passing the intersection, we notice the following changes:</p>
+<ul>
+<li>There is a bike lane. On both sides of the road.</li>
+<li>Cars are not parked along the road anymore.</li>
+</ul>
+<p>We keep moving forward, and do not notice any changes until Manor Road, which is the end of the street we are mapping anyway.</p>
+<blockquote>
+<p><strong>REMARK:</strong> We simplified the feature list a little bit here for the sake of this example. An experienced mapper would have added the following segments: 1) just after passing E. Martin Luther King Jr Blvd, our street has 3 lanes for a few feet 2) there are parking pockets all along our second segment.</p>
+</blockquote>
+<p>During this virtual walk, we have identified the following segments and attributes:</p>
+<ul>
+<li>E. 12th St -&gt; E. Martin Luther King Jr Blvd<ul>
+<li>lanes=2</li>
+<li>maxspeed=30mph</li>
+<li>parking:lane:both=parallel</li>
+<li>surface=asphalt</li>
+<li><strong>No bike lane</strong></li>
+</ul>
+</li>
+<li>E. Martin Luther King Jr Blvd -&gt; Manor Road<ul>
+<li>cycleway=lane</li>
+<li>lanes=2</li>
+<li>maxspeed=30mph</li>
+<li>parking:lane=no_parking</li>
+<li>surface=asphalt</li>
+</ul>
+</li>
+</ul>
+<p>We can now report them to OSM using the ID editor.</p></div>
         </div>
 
         <footer class="col-md-12">
