@@ -6,6 +6,24 @@ from nox.virtualenv import VirtualEnv
 # Configuration values.
 VENV = "venv"
 
+@task
+def build(c):
+    """Build the documentatrion site."""
+    mkdocs = mkdocs_bin()
+    c.run(f'{mkdocs} build -v -s')
+
+@task
+def publish(c):
+    """Publish the site to github pages."""
+    mkdocs = mkdocs_bin()
+    c.run(f'{mkdocs} gh-deploy -v --clean')
+
+
+@task()
+def serve(c):
+    """Serve the documentation using the development server."""
+    mkdocs = mkdocs_bin()
+    c.run(f'{mkdocs} serve')
 
 @task(default=True)
 def setup(c):
@@ -21,7 +39,7 @@ def setup(c):
 def resize_images(c):
     """Resize images for the BNA document."""
     with c.cd("images-orig"):
-        c.run("mogrify -resize 240x -path ../images *.png")
+        c.run("mogrify -resize 180x -path ../docs/images *.png")
 
 
 def get_venv(venv):
@@ -37,3 +55,7 @@ def get_venv(venv):
     venv_bin = Path(venv.bin)
     activate = venv_bin / "activate"
     return venv, venv_bin, activate
+
+def mkdocs_bin():
+    _,venv_bin,_ = get_venv(VENV)
+    return venv_bin / "mkdocs"

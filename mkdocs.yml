@@ -1,0 +1,9 @@
+site_name: BNA hackthon
+nav:
+  - index.md
+  - progress.md
+
+extra_css:
+  - css/extra.css
+
+theme: yeti
