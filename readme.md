@@ -5,6 +5,7 @@
 * One document (instead of 3)
 * Less scrolling
 * Simplify researching for examples and official pages
+* Provide a better way to distribute the tasks
 * Provide a way to monitor progress
 
 ## Setup

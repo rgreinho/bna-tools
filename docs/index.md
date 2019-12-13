@@ -4,9 +4,9 @@
 
 For this exercise, we are focusing only on these tags:
 
-|||||
-|---|---|---|---|
-|[cycleway](https://wiki.openstreetmap.org/wiki/Key:cycleway)<br />[highway](https://wiki.openstreetmap.org/wiki/Key:highway)|[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)<br />[oneway](https://wiki.openstreetmap.org/wiki/Key:oneway)|[maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)<br /> [parking](https://wiki.openstreetmap.org/wiki/Key:parking:lane)|[surface](https://wiki.openstreetmap.org/wiki/Key:surface)|
+||||||||
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|[cycleway](https://wiki.openstreetmap.org/wiki/Key:cycleway)|[highway](https://wiki.openstreetmap.org/wiki/Key:highway)|[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)|[maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)|[oneway](https://wiki.openstreetmap.org/wiki/Key:oneway)|[parking](https://wiki.openstreetmap.org/wiki/Key:parking:lane)|[surface](https://wiki.openstreetmap.org/wiki/Key:surface)|
 
 ## Bike facilities examples
 
@@ -19,7 +19,7 @@ For this exercise, we are focusing only on these tags:
 |![Bike + parking lane](images/bike+parking-lane.png)|Bike + parking lane|cycleway:{side}=lane<br/>parking:lane:{side}=parallel<br/>|
 |![Buffered bike lane](images/buffered-bike-lane.png)|Buffered bike lane|cycleway:{side}=buffered_lane<br/>||
 |![One-way cycle track protected lane](images/one-way-cycle-track.png)|One-way cycle track<br />One-way protected lane|cycleway:{side}=track|See also [cycle tracks alternative](#cycle-tracks-alternative)|
-|![Contraflow Cycle track](images/contraflow-cycle-track.png)|Contraflow Cycle track|cycleway:{side}=opposite_track|
+|![Contraflow cycle track](images/contraflow-cycle-track.png)|Contraflow cycle track|cycleway:{side}=opposite_track|
 |![Two-way cycle track](images/two-way-cycle-track.png)|Two-way cycle track<br />Two-way protected lane|highway=cycleway|Must be drawn as its own centerline.|
 |![Sharows](images/sharrows.png)|Sharrows<br />Shared Lane|cycleway:{side}=shared_lane||
 
