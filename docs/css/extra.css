@@ -1,4 +1,4 @@
-i.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td {
 	vertical-align: middle;
 }
 
@@ -6,3 +6,7 @@ i.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th, .
 	text-align: center;
 }
 
+h2 {
+  padding: 2rem 0 0.25rem 0;
+  border-bottom: 3px solid #008cba;
+}

@@ -1,6 +1,6 @@
 # Guide
 
-## Main tags
+## Tags
 
 For this exercise, we are focusing only on these tags:
 
@@ -8,7 +8,7 @@ For this exercise, we are focusing only on these tags:
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |[cycleway](https://wiki.openstreetmap.org/wiki/Key:cycleway)|[highway](https://wiki.openstreetmap.org/wiki/Key:highway)|[lanes](https://wiki.openstreetmap.org/wiki/Key:lanes)|[maxspeed](https://wiki.openstreetmap.org/wiki/Key:maxspeed)|[oneway](https://wiki.openstreetmap.org/wiki/Key:oneway)|[parking](https://wiki.openstreetmap.org/wiki/Key:parking:lane)|[surface](https://wiki.openstreetmap.org/wiki/Key:surface)|
 
-## Bike facilities examples
+## Bike facility examples
 
 |Photo|Denominations|Tags|Remarks|
 |---|:---:|---|---|
@@ -52,9 +52,10 @@ Official documentation:
 
 ### How many lanes?
 
-* The `lanes` tag represents the count of all car lanes on the the road, in both directions.
+* The `lanes` tag represents the count of all car travel lanes on the the road, in both directions.
 * Center turn lanes **must** be included in the number of lanes.
 * Non-car lanes are omitted.
+* Parking lanes are ommitted.
 
 ## Extra resources
 
