@@ -46,13 +46,14 @@ The tasks can be performed at the same time or sequentially, as you prefer.
 
 ### Example: E. M. Franklin Ave. between E. 12th St and Manor Road
 
-Place the street view orange man at E. 12th St & E. M. Franklin Ave. Look North.
+Place the street view orange man at E. 12th St & E. M. Franklin Ave. Look North. You must start at one end, and go to
+the other end.
 
 Start identifying the street features represented by the tags at the top of our guide. We can see the following ones:
 
 * There are 2 car lanes.
 * There is a sign indicating a speed limit of 30mph.
-* Cars are parked parralel to the road on both sides.
+* Cars are parked parallel to the road on both sides.
 * The surface of the road is asphalt
 * **There is no bike lane.**
 
