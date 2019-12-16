@@ -18,8 +18,8 @@ To test wether or not this approach is valid, I propose to run a first test with
 
 | Street Name             | Mapper  | Reviewer | Status|
 |-------------------------|:-------:|:--------:|:-----:|
-| 3rd Street              |         |          |       |
-| Arroyo Seco             |         |          |       |
+| 3rd Street              | Luis A. |          |       |
+| Arroyo Seco             | Rémy G. |          |       |
 | Berkman Drive           | Rémy G. |          |       |
 | Cherrywood Road         |         |          |       |
 | Chesnut Avenue          |         |          |       |
