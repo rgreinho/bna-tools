@@ -33,7 +33,7 @@ comfortable with. The goal is to find the tagging information quickly.
 An alternative setup that is used on wide screens (UHD, 4K, etc.) is to open the 3 windows on the same screen, and give
 each of them 1/3 of the screen.
 
-The screenshot bellow depicts this setup on a 4K monitor at a definition of 3840 x 2160 pixels.
+The screenshot below depicts this setup on a 4K monitor at a definition of 3840 x 2160 pixels.
 
 ![one-screen-3-windows](images/setup/one-screen-3-windows.png)
 
