@@ -21,7 +21,7 @@ To test wether or not this approach is valid, I propose to run a first test with
 | 3rd Street              | Luis A. |          |       |
 | Arroyo Seco             | Rémy G. |          |       |
 | Berkman Drive           | Rémy G. |          |       |
-| Cherrywood Road         |         |          |       |
+| Cherrywood Road         | Rémy G. |          |       |
 | Chesnut Avenue          |         |          |       |
 | Chicon Street           |         |          |       |
 | Clyde Littlefield Drive |         |          |       |
