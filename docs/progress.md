@@ -18,7 +18,7 @@ To test wether or not this approach is valid, I propose to run a first test with
 
 | Street Name             | Mapper  | Reviewer | Status|
 |-------------------------|:-------:|:--------:|:-----:|
-| 3rd Street              | Luis A. |          |       |
+| 3rd Street              | Luis A. | Rémy G.  | ✅    |
 | Arroyo Seco             | Rémy G. |          |       |
 | Berkman Drive           | Rémy G. |          |       |
 | Cherrywood Road         | Rémy G. |          |       |
