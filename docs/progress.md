@@ -37,4 +37,4 @@ To test wether or not this approach is valid, I propose to run a first test with
 | Speedway                |         |          |       |
 | Tiley Street            |         |          |       |
 | Trinity Street          |         |          |       |
-| Zach Schott Street      |         |          |       |
+| Zach Schott Street      | Rémy G. |          |       |
