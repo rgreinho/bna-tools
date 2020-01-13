@@ -54,7 +54,7 @@ Start identifying the street features represented by the tags at the top of our 
 * There are 2 car lanes.
 * There is a sign indicating a speed limit of 30mph.
 * Cars are parked parallel to the road on both sides.
-* The surface of the road is asphalt
+* The surface of the road is asphalt.
 * **There is no bike lane.**
 
 Start moving North (use the mouse or the UP arrow ( 🔼) on the keyboard), and keep following the road until you notice
