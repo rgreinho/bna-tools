@@ -16,25 +16,25 @@ The first idea was to use the streets of the city as a completion indicator:
 
 To test wether or not this approach is valid, I propose to run a first test with the 20 most bikeable streets in the city:
 
-| Street Name             | Mapper  | Reviewer | Status|
-|-------------------------|:-------:|:--------:|:-----:|
-| 3rd Street              | Luis A. | Rémy G.  | ✅    |
-| Arroyo Seco             | Rémy G. |          |       |
-| Berkman Drive           | Rémy G. |          |       |
-| Cherrywood Road         | Rémy G. |          |       |
-| Chesnut Avenue          | Luis A. | Rémy G.  | ✅    |
-| Chicon Street           | Kristen R. |          |       |
-| Clyde Littlefield Drive | Mitch B. | Liani L. | ✅     |
-| Comal Street            | Liani L. |         |       |
-| Denson Drive            |         |          |       |
-| E. M Franklin Avenue    | Rémy G. |          |       |
-| Guadalupe Street        | Rémy G. |          |       |
-| Manor Road              | Mitch B. |          |       |
-| Pedernales Street       |         |          |       |
-| Red River Street        | Rémy G. |          |       |
-| Rio Grande Street       |         |          |       |
-| San Jacinto boulevard   |         |          |       |
-| Speedway                |         |          |       |
-| Tiley Street            |         |          |       |
-| Trinity Street          |         |          |       |
-| Zach Schott Street      | Rémy G. |          |       |
+| Street Name             |   Mapper   | Reviewer | Status |
+|-------------------------|:----------:|:--------:|:------:|
+| 3rd Street              |   Luis A.  |  Rémy G. |    ✅  |
+| Arroyo Seco             |   Rémy G.  |          |        |
+| Berkman Drive           |   Rémy G.  |          |        |
+| Cherrywood Road         |   Rémy G.  |          |        |
+| Chesnut Avenue          |   Luis A.  |  Rémy G. |    ✅  |
+| Chicon Street           | Kristen R. |          |        |
+| Clyde Littlefield Drive |  Mitch B.  | Liani L. |    ✅  |
+| Comal Street            |  Liani L.  |          |        |
+| Denson Drive            |  Mitch B.  |          |        |
+| E. M Franklin Avenue    |   Rémy G.  |          |        |
+| Guadalupe Street        |   Rémy G.  | Mitch B. |        |
+| Manor Road              |  Mitch B.  |          |        |
+| Pedernales Street       |   Luis A.  |          |        |
+| Red River Street        |   Rémy G.  |          |        |
+| Rio Grande Street       |  Liani L.  |          |        |
+| San Jacinto boulevard   |   Luis A.  |          |        |
+| Speedway                |            |          |        |
+| Tiley Street            |            |          |        |
+| Trinity Street          |            |          |        |
+| Zach Schott Street      |   Rémy G.  |          |        |
