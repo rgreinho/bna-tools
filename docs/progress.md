@@ -25,7 +25,7 @@ To test wether or not this approach is valid, I propose to run a first test with
 | Chesnut Avenue          |   Luis A.  |  Rémy G. |    ✅  |
 | Chicon Street           | Kristen R. |          |        |
 | Clyde Littlefield Drive |  Mitch B.  | Liani L. |    ✅  |
-| Comal Street            |  Liani L.  |          |        |
+| Comal Street            |  Liani L.  |Kristen R.|    ✅  |
 | Denson Drive            |  Mitch B.  |          |        |
 | E. M Franklin Avenue    |   Rémy G.  |          |        |
 | Guadalupe Street        |   Rémy G.  | Mitch B. |        |
