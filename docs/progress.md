@@ -22,14 +22,14 @@ To test wether or not this approach is valid, I propose to run a first test with
 | Arroyo Seco             | Rémy G. |          |       |
 | Berkman Drive           | Rémy G. |          |       |
 | Cherrywood Road         | Rémy G. |          |       |
-| Chesnut Avenue          |         |          |       |
-| Chicon Street           |         |          |       |
-| Clyde Littlefield Drive |         |          |       |
-| Comal Street            |         |          |       |
+| Chesnut Avenue          | Luis A. | Rémy G.  | ✅    |
+| Chicon Street           | Kristen R. |          |       |
+| Clyde Littlefield Drive | Mitch B. | Liani L. | ✅     |
+| Comal Street            | Liani L. |         |       |
 | Denson Drive            |         |          |       |
 | E. M Franklin Avenue    | Rémy G. |          |       |
-| Guadalupe Street        |         |          |       |
-| Maor Road               |         |          |       |
+| Guadalupe Street        | Rémy G. |          |       |
+| Manor Road              | Mitch B. |          |       |
 | Pedernales Street       |         |          |       |
 | Red River Street        | Rémy G. |          |       |
 | Rio Grande Street       |         |          |       |
