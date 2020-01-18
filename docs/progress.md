@@ -23,7 +23,7 @@ To test wether or not this approach is valid, I propose to run a first test with
 | Berkman Drive           |   Rémy G.  |          |        |
 | Cherrywood Road         |   Rémy G.  |          |        |
 | Chesnut Avenue          |   Luis A.  |  Rémy G. |    ✅  |
-| Chicon Street           | Kristen R. |          |        |
+| Chicon Street           | Kristen R. | Mitch B. |    ✅  |
 | Clyde Littlefield Drive |  Mitch B.  | Liani L. |    ✅  |
 | Comal Street            |  Liani L.  |Kristen R.|    ✅  |
 | Denson Drive            |  Mitch B.  |          |        |
