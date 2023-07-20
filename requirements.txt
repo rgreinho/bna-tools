@@ -1,5 +1,5 @@
 aiohttp==3.8.5
 halo==0.0.28
-mkdocs==1.0.4
+mkdocs==1.2.3
 mkdocs-bootswatch==1.0
 pandas==0.25.3
