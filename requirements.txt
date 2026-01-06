@@ -1,4 +1,4 @@
-aiohttp==3.12.14
+aiohttp==3.13.3
 halo==0.0.28
 mkdocs==1.2.3
 mkdocs-bootswatch==1.0
